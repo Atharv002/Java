@@ -3,7 +3,7 @@ import java.sql.*;
 // import java.awt.event.*;
 
 public class DB_JDBC{
-    private Connection conn;
+    private Connection conn1;
     public DB_JDBC(){
         // Connect to MySQL database
         try {
