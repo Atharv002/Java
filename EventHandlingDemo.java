@@ -1,6 +1,5 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
 
 public class EventHandlingDemo implements ActionListener, MouseListener, MouseMotionListener {
     private JFrame frame;
