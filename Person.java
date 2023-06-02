@@ -1,4 +1,4 @@
-import java..io.*;
+import java.io.*;
 
 public class Person implements java.io.Serializable{
     private String firstName;
