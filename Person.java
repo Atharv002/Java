@@ -1,4 +1,5 @@
 import java.io.*;
+import java.util.Scanner;
 
 public class Person implements java.io.Serializable{
     private String firstName;
