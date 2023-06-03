@@ -7,7 +7,6 @@ public class StudentRegistrationForm extends JFrame implements ActionListener {
     private JPasswordField passwordField;
     private JTextArea addressArea;
     private JButton submitButton;
-    private JTextArea text_are;
 
     public StudentRegistrationForm() {
         setTitle("Student Course Registration Form");
