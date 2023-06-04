@@ -34,7 +34,7 @@ public class Wave extends JPanel {
 		}
 	}
     public static void main(String[] args) {
-		JFrame frame = new JFrame("Print the wave pattern");
+		JFrame frame = new JFrame("Printing wave pattern using Swing");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setSize(500, 200);
 		Wave obj = new Wave();
