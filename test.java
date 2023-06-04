@@ -8,6 +8,7 @@ class test{
         while((i=br.read())!=-1){  
             System.out.print((char)i);  
         }
+        fr.close();
         br.close();
     }
 }
