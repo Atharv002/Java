@@ -12,7 +12,7 @@ public class StudentRegistrationForm extends JFrame implements ActionListener {
         setTitle("Student Course Registration Form");
         setSize(400, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        
+        setLocationRelativeTo(null);
 
         // Create the components
         JLabel nameLabel = new JLabel("Name:");
