@@ -22,7 +22,7 @@ public class Wave extends JPanel {
 		int maxHeight = getHeight();
 		pts = new int[points];
 		for (int i = 0; i < points; i++){
-			pts[i] = (int) (sines[i] * maxHeight / 2 * .95 + maxHeight / 2);
+			pts[i] = (int) (sines[i] * maxHeight / 2 * .9 + maxHeight / 2);
 		}
 		g.setColor(Color.RED);
 		for (int i = 1; i < points; i++) {
