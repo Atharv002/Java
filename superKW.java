@@ -25,6 +25,7 @@ public class superKW {
         Dog d=new Dog();
         d.greet();
         d.greet2();
+        d.wheeze(); //wont work
         Puppy p = new Puppy();
         p.greet();
         p.greet2();
