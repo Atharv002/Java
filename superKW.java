@@ -1,6 +1,6 @@
 class Animal{
     public void greet(){
-        System.out.println("Greet");
+        System.out.println("Greetings");
     }
 }
 
