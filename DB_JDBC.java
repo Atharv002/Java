@@ -8,7 +8,7 @@ public class DB_JDBC{
         // Connect to MySQL database
         try {
             // System.out.println("0");
-            // Class.forName("com.mysql.cj.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             System.out.println("1");
             conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/db", "root", "123456789");
             System.out.println("2");
