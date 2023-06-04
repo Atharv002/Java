@@ -22,6 +22,7 @@ class Puppy extends Dog{
 
 public class superKW {
     public static void main(String args[]){
+        Dog d=new Dog();
         Puppy p = new Puppy();
         p.greet();
         p.greet2();
