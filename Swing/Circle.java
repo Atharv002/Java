@@ -4,7 +4,7 @@ import javax.swing.JFrame;
 public class Circle extends JFrame{
 public Circle()
 {
- super("Circle In GUI");
+ super("Circle using Swing");
  setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
  setSize(400,400);
  setVisible(true);
