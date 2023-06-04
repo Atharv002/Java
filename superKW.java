@@ -28,5 +28,6 @@ public class superKW {
         Puppy p = new Puppy();
         p.greet();
         p.greet2();
+        p.wheeze();
     }
 }
