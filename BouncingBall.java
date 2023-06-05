@@ -55,8 +55,6 @@ public class BouncingBall extends Applet implements Runnable {
 
     public void paint(Graphics g) {
         super.paint(g);
-
-        // Draw the ball at the current position
         g.setColor(Color.red);
         g.fillOval(x - radius, y - radius, 2 * radius, 2 * radius);
     }
