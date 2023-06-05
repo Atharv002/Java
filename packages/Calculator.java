@@ -16,6 +16,7 @@ public class Calculator extends Exception{
         }
         catch (Exception e){
             System.out.println("Error detected");
+            e.printStackTrace();
         }
     }
 }
