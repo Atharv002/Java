@@ -24,6 +24,7 @@ public class TCPServer {
             serverSocket.close();
         } catch (IOException e) {
             e.printStackTrace();
+            System.out.println("Error connecting to server");
         }
     }
 }
