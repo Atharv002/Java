@@ -47,6 +47,7 @@ public class BouncingBall extends Applet implements Runnable {
             try {
                 Thread.sleep(10);  // delay between frames
             } catch (InterruptedException e) {
+                System.out.println("Interrupted");
                 break;
             }
         }
