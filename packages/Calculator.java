@@ -12,7 +12,10 @@ public class Calculator extends Exception{
     }
     public static int div(int a,int b){
         try{
-
+            return a/b;
+        }
+        catch (Exception e){
+            System.out.println("Error detected");
         }
     }
 }
