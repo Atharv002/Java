@@ -22,7 +22,7 @@ public class TCPClient {
             clientSocket.close();
         } catch (IOException e) {
             e.printStackTrace();
-            System.out.println("Error");
+            System.out.println("Error connecting to server");
         }
     }
 }
