@@ -8,4 +8,11 @@ public class Calculator2 {
         }
         return (a%b);
     }
+    public static int power(int a, int b){
+        int sum=1;
+        for(int i=1;i<=b;i++){
+            sum*=a;
+        }
+        return sum;
+    }
 }
