@@ -44,8 +44,6 @@ public class BouncingBall extends Applet implements Runnable {
                 ySpeed = -ySpeed;  // reverse the vertical direction
             }
 
-            repaint();  // request a redraw of the applet
-
             try {
                 Thread.sleep(10);  // delay between frames
             } catch (InterruptedException e) {
