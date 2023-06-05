@@ -14,7 +14,7 @@ public class DB_JDBC{
             System.out.println("2");
             System.out.println("Connected to the server");
         } catch (Exception ex) {
-            System.out.println("Error connecting to the server: "+ex);
+            System.out.println("Error connecting to the server, try again "+ex);
         }
     }
     public static void main(String args[]){
