@@ -18,6 +18,7 @@ public class DB_JDBC{
         }
     }
     public static void main(String args[]){
+        DB_JDBC obj = new DB_JDBC();
         return;
     }
 }
