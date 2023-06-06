@@ -10,7 +10,7 @@ class usedInterface implements EmpDeets {
         System.out.println("Employee ID");
     }
     public void getEmpName(int id){
-        System.out.println("Something else "+id);
+        System.out.println("Employee Name"+id);
     }
 }
 
