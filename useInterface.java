@@ -18,6 +18,6 @@ class useInterface{
     public static void main(String args[]){
         usedInterface ud= new usedInterface();
         ud.getEmpId(); //get all employee id
-        ud.getEmpName(1); //get emplyee name through id
+        ud.getEmpName(1); //get employee name through id
     }
 }
