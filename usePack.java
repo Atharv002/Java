@@ -10,5 +10,7 @@ public class usePack {
         System.out.println(val3);
         int val4=packages.Calculator.mul(5,5);
         System.out.println(val4);
+        int val5=packages.Calculator2.mod(35,3);
+        sysout
     }
 }
