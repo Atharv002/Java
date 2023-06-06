@@ -15,4 +15,5 @@ public class Calculator2 {
         }
         return sum;
     }
+    public static int mul(int a,)
 }
