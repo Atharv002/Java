@@ -8,5 +8,7 @@ public class usePack {
         System.out.println(val2);
         int val3=packages.Calculator.sub(2,1);
         System.out.println(val3);
+        int val4=packages.Calculator.mul(5,5);
+        sys
     }
 }
