@@ -1,6 +1,6 @@
 import packages.*;
 
-public class usePack {
+public class usePack{
     public static void main(String args[]) {
         int val = Calculator.add(1,2);
         System.out.println(val);
