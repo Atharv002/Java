@@ -18,6 +18,6 @@ public class Calculator1 extends Exception{
             System.out.println("Division by zero error");
             return -1;
         }
-        return 0;
+        return (a/b);
     }
 }
