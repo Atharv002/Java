@@ -13,6 +13,7 @@ public class Calculator2 {
         return (b-a);
     }
     public static int pow(int a, int b){
+        if(b==0){return 1;}
         int ans=1;
         for(int i=1;i<=b;i++){
             ans*=a;
