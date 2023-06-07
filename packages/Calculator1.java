@@ -1,6 +1,6 @@
 package packages;
 
-public class Calculator extends Exception{
+public class Calculator1 extends Exception{
     public static int add(int a, int b){
         return (a+b);
     }
