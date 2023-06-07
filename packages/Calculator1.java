@@ -13,4 +13,8 @@ public class Calculator1 extends Exception{
         int ans=a*b;
         return ans;
     }
+    public static int div(int a, int b){
+        if(b==0){return -1;}
+        return 0;
+    }
 }
