@@ -14,7 +14,10 @@ public class Calculator1 extends Exception{
         return ans;
     }
     public static int div(int a, int b){
-        if(b==0){return -1;}
+        if(b==0){
+            System.out.println("Division by zero error");
+            return -1;
+        }
         return 0;
     }
 }
