@@ -12,4 +12,11 @@ public class Calculator2 {
         if(a>=b){return (a-b);}
         return (b-a);
     }
+    public static int pow(int a, int b){
+        int ans=1;
+        for(int i=1;i<=b;i++){
+            ans*=a;
+        }
+        return ans;
+    }
 }
