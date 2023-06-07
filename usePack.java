@@ -6,5 +6,6 @@ public class usePack{
         System.out.println(packages.Calculator1.sub(3,4));
         System.out.println(packages.Calculator1.mul(3,4));
         System.out.println(packages.Calculator1.div(4,2));
+        System.out.println(packages.Calculator2.mod(5,4));
     }
 }
