@@ -8,4 +8,7 @@ public class Calculator2 {
         }
         return a%b;
     }
+    public static int abs(int a,int b){
+        if(a>=b){return (a-b);}
+    }
 }
