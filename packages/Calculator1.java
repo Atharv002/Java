@@ -9,4 +9,8 @@ public class Calculator1 extends Exception{
         int ans=a-b;
         return ans;
     }
+    public static int mul(int a, int b){
+        int ans=a*b;
+        return ans;
+    }
 }
